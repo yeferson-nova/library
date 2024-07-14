@@ -10,38 +10,41 @@ El **Library Management System** es una aplicación diseñada para gestionar la 
 - **Excepciones Personalizadas**: Manejo de excepciones específicas como `BookNotFoundException`, `DuplicateBookException`, `DuplicateLoanException`, entre otras.
 
 ## Estructura del Proyecto
+
+```plaintext
 src
 └── main
-└── java
-└── com
-└── ynova
-└── library
-├── exception
-│ ├── BookNotFoundException.java
-│ ├── DuplicateBookException.java
-│ ├── DuplicateLoanException.java
-│ ├── DuplicateStudentException.java
-│ ├── ErrorMessages.java
-│ ├── StudentNotFoundException.java
-├── model
-│ ├── Book.java
-│ ├── Loan.java
-│ ├── LoanReport.java
-│ ├── Student.java
-├── service
-│ ├── impl
-│ │ ├── BookServiceImpl.java
-│ │ ├── LoanServiceImpl.java
-│ │ ├── StudentServiceImpl.java
-│ ├── IBookService.java
-│ ├── ILoanService.java
-│ ├── IStudentService.java
-└── Main.java
+    └── java
+        └── com
+            └── ynova
+                └── library
+                    ├── exception
+                    │   ├── BookNotFoundException.java
+                    │   ├── DuplicateBookException.java
+                    │   ├── DuplicateLoanException.java
+                    │   ├── DuplicateStudentException.java
+                    │   ├── ErrorMessages.java
+                    │   ├── StudentNotFoundException.java
+                    ├── model
+                    │   ├── Book.java
+                    │   ├── Loan.java
+                    │   ├── LoanReport.java
+                    │   ├── Student.java
+                    ├── service
+                    │   ├── impl
+                    │   │   ├── BookServiceImpl.java
+                    │   │   ├── LoanServiceImpl.java
+                    │   │   ├── StudentServiceImpl.java
+                    │   ├── IBookService.java
+                    │   ├── ILoanService.java
+                    │   ├── IStudentService.java
+                    └── Main.java
 resources
 test
 target
 pom.xml
 README.md
+```
 
 ## Descripción de los Paquetes
 
